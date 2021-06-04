@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d21afc4"],{be9d:function(n,a,e){"use strict";e.r(a);var t=function(){var n=this,a=n.$createElement,e=n._self._c||a;return e("h1",[n._v("门户管理")])},c=[],r={name:"portal",data:function(){return{}},methods:{}},u=r,o=e("2877"),s=Object(o["a"])(u,t,c,!1,null,"a1a3aa2c",null);a["default"]=s.exports}}]);
+//# sourceMappingURL=chunk-2d21afc4.db748c14.js.map

@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d2080da"],{a2c6:function(e,n,t){"use strict";t.r(n);var a=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("h1",[e._v("富文本编辑器")])},c=[],u={name:"edit",data:function(){return{}},methods:{}},r=u,d=t("2877"),o=Object(d["a"])(r,a,c,!1,null,"ead4fc24",null);n["default"]=o.exports}}]);
+//# sourceMappingURL=chunk-2d2080da.6dd17fdc.js.map
