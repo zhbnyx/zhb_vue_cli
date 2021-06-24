@@ -39,10 +39,10 @@ const routes = [
                 meta: { title: '门户管理' },
             },
             {
-                path: '/edit',
-                name: "edit",
-                component: () => import('@/views/edit.vue'),
-                meta: { title: '富文本编辑器' },
+                path: '/AiLabel',
+                name: "标注任务",
+                component: () => import('@/views/task/AiLabel.vue'),
+                meta: { title: '标注任务' },
             },
         ]
     },

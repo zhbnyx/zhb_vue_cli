@@ -50,15 +50,7 @@
         collapse: false,
         //顶部导航菜单栏
         indexnum: "",
-        topMenuList: [
-          {menuName:'样本资源管理',frontPath:'/ict_sample_front3.0'},
-          {menuName:'资产管理',frontPath:'/ict_assets_front3.0'},
-          {menuName:'模型训练',frontPath:'/ict_model_front3.0'},
-          {menuName:'工作空间',frontPath:'/ict_workspace_front3.0'},
-          {menuName:'个人中心',frontPath:'/ict_personal_front3.0'},
-          {menuName:'系统管理',frontPath:'/ict_admin_front3.0'},
-          {menuName:'价值评估',frontPath:'/ict_worth_front3.0'},
-        ],
+        topMenuList: [],
       };
     },
     props: ["topUserName"],

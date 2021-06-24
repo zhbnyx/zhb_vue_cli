@@ -63,22 +63,13 @@
           {
             icon: "icon-902caidan_shezhi_xitong",
             index: "3",
-            title: "系统管理",
+            title: "任务管理",
             subs: [
               {
-                index: "portal",
-                title: "门户管理"
-              },
-              {
-                index: "3-2",
-                title: "三级菜单",
-                subs: [
-                  {
-                    index: "edit",
-                    title: "富文本编辑器"
-                  }
-                ]
-              }
+                 index: "AiLabel",
+                 title: "标注任务",
+               }
+
             ]
           },
         ]
