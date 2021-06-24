@@ -34,7 +34,7 @@
                 class="zhb-icon icon iconfont icon-tuichu"
                 style="font-size: 18px; margin-right: 3px"
         ></i>
-        登出
+        注销
       </div>
     </div>
   </div>
