@@ -4,9 +4,12 @@
     <v-sidebar></v-sidebar>
     <!--main-->
     <div class="main-box" :class="{'content-collapse':collapse}">
-        <transition name="move" mode="out-in">
-            <router-view/>
-        </transition>
+        <v-tags></v-tags>
+        <div class="main-body">
+            <transition name="move" mode="out-in">
+                <router-view/>
+            </transition>
+        </div>
     </div>
 
 </div>
@@ -15,6 +18,7 @@
 <script>
     import vHead from "./Header.vue";
     import vSidebar from "./Sidebar.vue";
+    import vTags from "./Tags.vue";
     import bus from "./bus";
     export default {
         name: "admin",
@@ -31,7 +35,8 @@
         methods: {},
         components: {
             vHead,
-            vSidebar
+            vSidebar,
+            vTags
         },
     }
 </script>
@@ -45,6 +50,10 @@
     bottom:0;
     &.content-collapse {
         left: 65px;
+    }
+    .main-body{
+        width: 100%;
+        height: calc(100% - 50px);
     }
 }
 </style>

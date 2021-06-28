@@ -66,7 +66,7 @@
             title: "任务管理",
             subs: [
               {
-                 index: "AiLabel",
+                 index: "task_index",
                  title: "标注任务",
                }
 

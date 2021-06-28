@@ -39,12 +39,18 @@ const routes = [
                 meta: { title: '门户管理' },
             },
             {
-                path: '/AiLabel',
+                path: '/task_index',
                 name: "标注任务",
-                component: () => import('@/views/task/AiLabel.vue'),
+                component: () => import('@/views/task/task_index.vue'),
                 meta: { title: '标注任务' },
             },
         ]
+    },
+    {
+        path: '/AiLabel',
+        name: "AiLabel",
+        component: () => import('@/views/task/AiLabel.vue'),
+        meta: { title: 'AiLabel' },
     },
 ]
 export default new VueRouter({
