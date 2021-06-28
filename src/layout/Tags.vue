@@ -83,6 +83,7 @@
         },
         watch:{
             $route(newValue, oldValue){
+                console.log(oldValue);
                 this.setTags(newValue);
             }
         },
