@@ -1,9 +1,9 @@
 <template>
   <div class="header">
     <div class="sidebarLogo"  :class="{ collapse: collapse }">
-      <img src="@/assets/logo.png" v-show="!collapse"/>
-
-      <span></span>
+      <img src="@/assets/img/logo.png" v-show="!collapse"/>
+      <img src="@/assets/img/logo.png" v-show="collapse" style="margin-left: 13px;"/>
+      <span v-show="!collapse">vue element admin</span>
     </div>
     <!-- 折叠按钮 -->
     <div class="collapse-btn" @click="toggleCollapse" v-if="collapse">
@@ -91,40 +91,41 @@
     position: relative;
     box-sizing: border-box;
     width: 100%;
-    height: 59px;
+    height: 69px;
     font-size: 22px;
     color: #fff;
     display: flex;
     align-items: center;
     .sidebarLogo{
-      width: 220px;
-      height: 59px;
+      width: 256px;
+      height:100%;
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      background: $menu-theme-color;
+      background: #053434;
       /*border-right:1px solid #2E405B;*/
       box-sizing: border-box;
       border-bottom:1px solid #2E405B;
+      box-shadow: 2px 0 6px rgb(0,21,41,.35);
       &.collapse{width: 65px;}
     }
     .sidebarLogo img{
       /*width: 130px;*/
-       height: 38px;
+       height: 32px;
       vertical-align: middle;
       margin-left: 22px;
     }
     .sidebarLogo span{
       color: #ffffff;
       font-weight: bold;
-      font-size:17px;
-      margin-top: 5px;
+      font-size:18px;
+      margin-left: 10px;
     }
   }
 
   .collapse-btn {
     cursor: pointer;
-    height: 59px;
+    height: 100%;
     display: flex;
     align-items: center;
     border-right: 1px solid #2e405b;
@@ -136,7 +137,7 @@
     padding: 0 21px;
     display: block;
     font-size: 25px;
-    color: #abb0b8;
+    color: #595959;
   }
 
   .admin-btn {
@@ -147,13 +148,13 @@
   }
 
   .layout-btn {
-    color: #ffffff;
+    color: $el-submenu__title-color;
     font-size: 15px;
     cursor: pointer;
   }
 
   .user {
-    color: #ffffff;
+    color: $el-submenu__title-color;
     font-size: 15px;
     display: flex;
     align-items: center;

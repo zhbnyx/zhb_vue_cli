@@ -4,7 +4,7 @@
             class="sidebar-el-menu"
             :default-active="onRoutes"
             :collapse="collapse"
-            background-color="#313335"
+            background-color="#032121"
             text-color="rgba(255,255,255,.7)"
             active-text-color="#fff"
             unique-opened
@@ -96,11 +96,11 @@
   $menuActiveTextColor:$menu-theme-active-color;//菜单点击字体
   $menuActiveBgColor:$menu-theme-active-bg-color;//菜单点击背景
   .sidebar {
-    width: 220px;
+    width: 256px;
     display: block;
     position: absolute;
     left: 0;
-    top: 59px;
+    top: 69px;
     bottom: 0;
     overflow-y: scroll;
   }

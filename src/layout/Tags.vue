@@ -117,13 +117,16 @@
         height: 40px;
         overflow: hidden;
         background: #fff;
-        padding-right: 120px;
-        box-shadow: 0 5px 10px #ddd;
+        /*box-shadow: 0 5px 10px #ddd;*/
+        width: calc(100% - 20px);
+        padding: 0 10px;
+        display: flex;
+        justify-content: space-between;
     }
 
     .tags ul {
         box-sizing: border-box;
-        width: 100%;
+        width: calc(100% - 100px);
         height: 100%;
     }
 
@@ -173,9 +176,7 @@
         height: 35px;
     }
     .tags-close-box {
-        position: absolute;
-        right: 0;
-        top: 0;
+
         box-sizing: border-box;
         padding-top: 1px;
         text-align: center;

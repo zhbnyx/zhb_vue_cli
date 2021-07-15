@@ -61,7 +61,7 @@
         position: relative;
         width:100%;
         height:100%;
-        background-image: url('~@/assets/img/login-bg.png');
+        background-image: url('~@/assets/login.svg');
         background-size: 100%;
     }
     .ms-title{
@@ -81,6 +81,8 @@
         border-radius: 5px;
         background: rgba(255,255,255, 1);
         overflow: hidden;
+        border:1px solid #dddddd;
+        box-shadow: 2px 2px 2px rgba(0,0,0,.45);
     }
     .ms-content{
         padding: 30px 30px;

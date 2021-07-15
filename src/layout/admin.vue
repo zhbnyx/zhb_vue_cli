@@ -44,10 +44,11 @@
 <style lang="scss" scoped>
 .main-box{
     position: absolute;
-    top:59px;
-    left: 220px;
+    top:69px;
+    left: 256px;
     right:0;
     bottom:0;
+    background: #F0F2F5;
     &.content-collapse {
         left: 65px;
     }
